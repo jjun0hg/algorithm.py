@@ -1,4 +1,4 @@
-"""
+
 # 시간 복잡도
 # 5개의 데이터를 차례로 5회 더함
 array = [3,5,1,2,4]
@@ -16,7 +16,7 @@ for i in array:
   for j in array:
     temp = i * j
     print(temp)
-"""
+
 import time
 start_time = time.time() # 측정시작
 
